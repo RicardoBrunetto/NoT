@@ -5,7 +5,7 @@ package Dados;
  */
 
 /**
- * Uma adjacência entre dois vértices implica em uma ARESTA
+ * Uma adjacencia entre dois vertices implica em uma ARESTA
  */
 public class Adjacencia {
     Vertice vertice;

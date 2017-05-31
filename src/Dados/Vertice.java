@@ -15,7 +15,7 @@ public class Vertice {
     List<Adjacencia> adjacentes;
 
     /**
-     * Construtor que recebe apenas o rótulo como parâmetro
+     * Construtor que recebe apenas o rotulo como parametro
      * @param rotulo
      */
     public Vertice(String rotulo) {
@@ -30,7 +30,7 @@ public class Vertice {
     }
 
     /**
-     * Inclui uma Adjacência na lista de vértices adjacentes
+     * Inclui uma Adjacencia na lista de vertices adjacentes
      * @param adjacencia
      */
     public void adicionarAdjacencia(Adjacencia adjacencia){

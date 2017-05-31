@@ -4,7 +4,7 @@ import Dados.Grafo;
 
 /**
  * Created by rickh on 17/05/2017.
- * Interface para o Padrão de Projeto Strategy
+ * Interface para o Padrao de Projeto Strategy
  * https://sourcemaking.com/design_patterns/strategy
  */
 

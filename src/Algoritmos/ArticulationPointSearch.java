@@ -39,13 +39,13 @@ public class ArticulationPointSearch implements Search{
             if(v.getCor() == Cor.BRANCO){
                 v.setPred(u);
                 articulationPoint(v);
-                if(u.getPred() == null){ //u é raiz
+                if(u.getPred() == null){ //u e raiz
                     if(u.getAdjacentes().size() > 1) //u possui mais de 1 filho
-                        if(u.getAdjacentes().contains(v))// se v é filho de u
+                        if(u.getAdjacentes().contains(v))// se v e filho de u
                             addPontoArticulacao(u);
                 }else{
                     u.setLow(min(u.getLow(), v.getLow()));
-                    if(v.getLow() >= u.getTd()) //u é ponto de articulaçãp
+                    if(v.getLow() >= u.getTd()) //u e ponto de articulacao
                         addPontoArticulacao(u);
                 }
             }else {
@@ -75,7 +75,7 @@ public class ArticulationPointSearch implements Search{
 
     @Override
     public void printarResultado() {
-        System.out.print("\n\n** Pontos de Articulação **\n");
+        System.out.print("\n\n** Pontos de Articulacao **\n");
         for(Vertice v : pontosArticulacao)
             System.out.println(v.getRotulo());
         System.out.print("\tTotal: " + pontosArticulacao.size() + "\n");

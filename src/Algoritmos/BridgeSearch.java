@@ -15,9 +15,9 @@ import java.util.*;
 public class BridgeSearch implements Search{
     private int tempo;
     /*Aqui cria-se uma lista de pares (Vertice, Adjacencia)
-    * Cada par vincula um vértice à sua adjacência
-    * Isso já é feito na Lista de Adjacencias, mas aqui
-    * Apenas selecionamos alguns deles: as pontes (não criamos novamente)*/
+    * Cada par vincula um vertice à sua adjacencia
+    * Isso ja e feito na Lista de Adjacencias, mas aqui
+    * Apenas selecionamos alguns deles: as pontes (nao criamos novamente)*/
     List<Map.Entry<Vertice, Adjacencia>> pontes;
 
     public BridgeSearch() {
@@ -45,7 +45,7 @@ public class BridgeSearch implements Search{
                 v.setPred(u);
                 bridges(v);
                 u.setLow(min(u.getLow(), v.getLow()));
-                if(v.getLow() > u.getTd()) //(u,v) é ponte
+                if(v.getLow() > u.getTd()) //(u,v) e ponte
                     pontes.add(new AbstractMap.SimpleEntry<>(u, adj));
             }else{
                 if(u.getPred() != v && v.getTd() < u.getTd()){
@@ -71,7 +71,7 @@ public class BridgeSearch implements Search{
     public void printarResultado() {
         System.out.print("\n\n** Pontes **\n");
         for(Map.Entry<Vertice, Adjacencia> entrada : pontes) {
-            System.out.println("(" + entrada.getKey().getRotulo() + "," + entrada.getValue().getVertice().getRotulo() + "," + entrada.getValue().getPeso() + ")");
+            System.out.println("(" + entrada.getKey().getRotulo() + "," + entrada.getValue().getVertice().getRotulo() + ", [" + entrada.getValue().getPeso() + "])");
         }
         System.out.print("\tTotal: " + pontes.size() + "\n");
     }

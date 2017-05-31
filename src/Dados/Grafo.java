@@ -16,7 +16,7 @@ public class Grafo {
     }
 
     /**
-     * Adiciona um vértice ao um grafo
+     * Adiciona um vertice ao um grafo
      * @param v
      */
     public Vertice adicionarVertice(Vertice v){
@@ -30,7 +30,7 @@ public class Grafo {
     }
 
     /**
-     * Adicionar uma aresta entre dois vértices
+     * Adicionar uma aresta entre dois vertices
      * @param v
      * @param u
      * @param peso
@@ -42,7 +42,7 @@ public class Grafo {
     }
 
     /**
-     * Função que informa se o vértice que possui tal rótulo já está no grafo
+     * Funcao que informa se o vertice que possui tal rotulo ja esta no grafo
      * @param rotulo
      */
     private Vertice existsVertice(String rotulo){
@@ -50,8 +50,8 @@ public class Grafo {
     }
 
     /**
-     * Procedimento que reinicia os vértices com suas características originais,
-     * mantendo as adjacências e rótulos.
+     * Procedimento que reinicia os vertices com suas características originais,
+     * mantendo as adjacencias e rotulos.
      */
     public void resetGrafo(){
         for(Vertice v : vertices.values()) {
@@ -65,13 +65,13 @@ public class Grafo {
     }
 
     /**
-     * Função auxiliar que printa o grafo
+     * Funcao auxiliar que printa o grafo
      */
     public void printarGrafo(){
-        System.out.println("** Informações Gerais: **");
-        System.out.println("\tVértices: " + vertices.size());
+        System.out.println("** Informacões Gerais: **");
+        System.out.println("\tVertices: " + vertices.size());
         System.out.println("\tArestas: " + quantidadeArestas);
-        System.out.println("\n** Lista de Vértices **\n");
+        System.out.println("\n** Lista de Vertices **\n");
         for (Vertice vertice : vertices.values()) {
             vertice.printarVertice();
         }

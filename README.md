@@ -1,5 +1,5 @@
 # Network of Thrones
-Este trabalho foi desenvolvido para a disciplina de Algoritmos em Grafos por:
+Este trabalho foi desenvolvido para a disciplina de Algoritmos em Grafos (Ciência da Computação - UEM) em Maio/2017 por:
 - Rafael Rodrigues dos Santos (ra9407594182@uem.br)
 - Ricardo Henrique Brunetto (ra94182@uem.br)
 - Thais Aparecida Camacho (ra93807@uem.br)

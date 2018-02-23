@@ -13,3 +13,8 @@ Também é possível que o usuário informe outro arquivo de entrada através do
 Todo o programa foi escrito em Java. O projeto original foi criado com o auxílio da IDE da JetBrains para a linguagem: IntelliJ IDEA. Contudo, um `makefile` local pode ser perfeitamente utilizado, visto que não há dependências externas que requeiram complexidade.
 
 ## Implementação
+O projeto apresenta uma implementação Java para a representação Lista de Adjacências de um grafo.
+
+## Licença
+Este projeto segue a licença [Creative Commons Attribution-Sharealike (BY-SA)](https://creativecommons.org/licenses/by-sa/3.0/br/), que está detalhada no arquivo `LICENSE.md`.
+![alt text](https://licensebuttons.net/l/by-sa/3.0/88x31.png)

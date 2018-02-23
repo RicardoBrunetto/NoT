@@ -16,5 +16,7 @@ Todo o programa foi escrito em Java. O projeto original foi criado com o auxíli
 O projeto apresenta uma implementação Java para a representação Lista de Adjacências de um grafo.
 
 ## Licença
-Este projeto segue a licença [Creative Commons Attribution-Sharealike (BY-SA)](https://creativecommons.org/licenses/by-sa/3.0/br/), que está detalhada no arquivo `LICENSE.md`.
-![alt text](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
+Este projeto segue a licença [Creative Commons Attribution-ShareAlike (BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/), que está detalhada no arquivo [`LICENSE.md`](LICENSE.md).
+<p align="center">
+  <img src="https://licensebuttons.net/l/by-sa/3.0/88x31.png">
+</p>
